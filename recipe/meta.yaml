@@ -1,4 +1,4 @@
-{% set version = "1.2" %}
+{% set version = "1.2.1" %}
 
 {% set PYTHON = PYTHON | default("$PYTHON") %}
 
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/h/html5rdf/html5rdf-{{ version }}.tar.gz
-  sha256: 08378cbbbb63993ba7bb5eb1eac44bf9ca7b1a23dbee3d2afef5376597fb00a5
+  sha256: ace9b420ce52995bb4f05e7425eedf19e433c981dfe7a831ab391e2fa2e1a195
 
 build:
   noarch: python
